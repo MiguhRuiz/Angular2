@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript" src="https://unpkg.com/systemjs@0.19.39/dist/system.js"></script>
+</head>
+<body>
+    <script type="application/javascript">
+        System.config({
+            packages: {
+                dist: {
+                    defaultExtension: 'js',
+                    main: 'main'
+                }
+            }
+        })
+        System.import('dist')
+    </script>
+</body>
+</html>
