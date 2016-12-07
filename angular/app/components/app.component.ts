@@ -5,7 +5,15 @@ import {Component} from '@angular/core'
 
 @Component({
   selector: 'my-app',
-  template: '<h1>Este es mi primer componente</h1>'
+  template:
+  `
+    <header>
+        Cursos Platzi
+    </header>
+    <section>
+        <courses></courses>
+    </section>
+  `
 })
 
 export class AppComponent {}
