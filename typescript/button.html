@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button Example</title>
+    <script type="application/javascript" src="https://unpkg.com/systemjs@0.19.39/dist/system.js"></script>
+</head>
+<body>
+    <button id="button_1">Click me</button>
+    <script>
+        System.config({
+            packages: {
+                dist: {
+                    defaultExtension: 'js',
+                    main: 'button'
+                }
+            },
+            map: {
+                'jquery': 'https://unpkg.com/jquery@3.1.1/dist/jquery.min.js'
+            }
+        })
+        System.import('dist')
+    </script>
+</body>
+</html>
