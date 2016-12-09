@@ -2,7 +2,7 @@
  * Created by miguhruiz on 9/12/16.
  */
 import { Component, Input } from '@angular/core'
-import { Course } from '../common/course'
+import { Course } from '../../common/course'
 
 @Component({
     selector: 'coursebox',
