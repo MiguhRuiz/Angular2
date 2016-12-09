@@ -2,7 +2,7 @@
  * Created by miguhruiz on 7/12/16.
  */
 import { Component } from '@angular/core'
-import { Course } from '../../common/course'
+import { Course } from '../common/course'
 
 const COURSES :Course[] = [
     {

@@ -7,6 +7,7 @@ import { BrowserModule } from '@angular/platform-browser'
 import { AppComponent } from './components/app.component'
 import { CoursesComponent } from './components/course.component'
 import { CourseBoxComponent } from './components/coursebox.component'
+import { CartComponent } from './components/cart.component'
 
 @NgModule({
     imports: [
@@ -15,7 +16,8 @@ import { CourseBoxComponent } from './components/coursebox.component'
     declarations: [
         AppComponent,
         CoursesComponent,
-        CourseBoxComponent
+        CourseBoxComponent,
+        CartComponent
     ],
     bootstrap: [
         AppComponent
