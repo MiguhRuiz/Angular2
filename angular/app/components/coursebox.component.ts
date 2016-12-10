@@ -1,7 +1,7 @@
 /**
  * Created by miguhruiz on 9/12/16.
  */
-import { Component, Input, trigger, state, style, transition, animation } from '@angular/core'
+import { Component, Input, trigger, state, style, transition, animate } from '@angular/core'
 import { Course } from '../common/course'
 import { CartService } from '../services/cart.service'
 import { Router } from '@angular/router'
