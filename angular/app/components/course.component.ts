@@ -17,6 +17,7 @@ import { AuthService } from '../services/auth.service'
                 *ngFor="let course_info of courses">   
             </coursebox>
         </div>
+        <cart></cart>
     `,
     providers: [
         ApiService,
