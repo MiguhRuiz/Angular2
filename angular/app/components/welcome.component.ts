@@ -1,7 +1,8 @@
 /**
  * Created by miguhruiz on 9/12/16.
  */
-import { Component } from '@angular/core'
+import { Component, OnInit } from '@angular/core'
+import { AuthService } from '../services/auth.service'
 
 @Component({
     selector: 'wellcome',
@@ -10,6 +11,12 @@ import { Component } from '@angular/core'
     `
 })
 
-export class WelcomeComponent {
+export class WelcomeComponent implements OnInit{
+    constructor(
+       private auth :AuthService
+    ) {}
 
+    ngOnInit() {
+        this.auth.check()
+    }
 }
